@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import {motion} from 'framer-motion'
-
+import image from '../public/images/idriss2.jpg'
 export default function Home() {
   return (
     <main  className='flex justify-center text-dark '>
@@ -32,8 +32,8 @@ export default function Home() {
           <button className='bg-primary text-white px-7 py-3 font-semibold rounded-lg'>About Me</button>
         </div>
         </div>
-        <div className='flex justify-center items-center w-2/5  rounded-full bg-gray-200'>
-          <Image src='/images/profile.jpg' alt='profile' width={200} height={200} className='rounded-full' />
+        <div className='flex justify-center items-center w-2/5 '>
+          <Image src={image} alt='profile' width={350} height={350} className='rounded-full  border-solid border-2 border-gray-600 shadow-xl shadow-black' />
         </div>
         
         

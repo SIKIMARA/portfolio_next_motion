@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import {motion} from 'framer-motion'
 import SkillsSection from '@/components/SkillSection'
+import idriss from '../../public/images/idriss3.jpg'
 import Image from 'next/image'
 const container ={
     hidden: { opacity: 0 , y:100},
@@ -64,8 +65,8 @@ const page = () => {
                         I am Idriss Bougarrani, a motivated computer science student currently in my fourth year of studies at the esteemed National School of Applied Sciences of Fez. As a software engineering student, I have developed a strong foundation in Java programming and specialize in web development. I am skilled in Java technologies such as MVC, Hibernate, AOP, Security, REST, and Boot, and have expertise in the Spring framework,full-stack development with React. <br />
                         </p>
                     </motion.div>
-                    <motion.div className='w-full md:w-2/5 m-5 bg-black'>
-                        <Image src='/images/profile.jpg' alt='profile' width={200} height={200} className='rounded-full' />
+                    <motion.div className='w-full md:w-2/5 m-5 '>
+                        <Image src={idriss} alt='profile' width={500} height={200} className='rounded-md shadow-lg shadow-black' />
                     </motion.div>
                 </motion.div>
                 <motion.div className="flex justify-center space-x-10  m-5  md:flex-row md:w-full">
