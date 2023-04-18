@@ -3,10 +3,8 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import Image from 'next/image'
-import labd from "../../public/images/LABD.png"
-import location from "../../public/images/location_voiture.png"
+import orientalshades from "../../public/images/oriental-shades.png"
 
-import inventory from "../../public/images/gestion_d'inventaire.png"
 
 import Project from '../../components/Project'
 
@@ -18,7 +16,7 @@ const projects=[
    
     Link:'https://location-voiture-2021.herokuapp.com/',
     Github:'github.com/Abderrahmane-Elhassani/Location-voiture',
-    videoDemo:location,
+    videoDemo:"https://www.youtube.com/watch?v=2FIMrQXltKs&t=5s",
     technologies:'React, Nextjs, Tailwindcss, Nodejs, Express, MongoDB'
   },
   {
@@ -28,7 +26,7 @@ const projects=[
 
     Link:'https://gestion-inventaire.herokuapp.com/',
     Github:'github.com/Abderrahmane-Elhassani/Gestion-d-inventaire',
-    videoDemo:inventory,
+    videoDemo:"https://youtu.be/Cihl4qupjzc",
     technologies:'React, Nextjs, Tailwindcss, Nodejs, Express, MongoDB'
   },
   {
@@ -38,7 +36,7 @@ const projects=[
  
     Link:'https://labd.herokuapp.com/',
     Github:'github.com/Abderrahmane-Elhassani/LABD',
-    videoDemo:labd,
+    img:orientalshades,
     technologies:'React, Nextjs, Tailwindcss, Nodejs, Express, MongoDB'
   },
 

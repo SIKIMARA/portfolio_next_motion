@@ -22,6 +22,7 @@ module.exports = {
         secondary : "#FF5722",
       }
     },
+   
   },
   plugins: [],
 }
